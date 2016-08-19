@@ -1,0 +1,285 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+   font-family: 'Roboto', sans-serif;
+   font-size: 25px;
+   font-weight: 500;
+   color: #fff;
+   margin: 0px;
+   padding: 0px; 
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hideme{
+    opacity:0;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.active{
+    color: #e9b8e4;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+}
+
+.footer-Holder{
+    width: 750px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.footer-Holder a{
+    color: #fff;
+    margin: 10px;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 99;
+}
+
+.Header-Hold{
+    width: 580px;
+    height: 30px;
+    margin-top: 20px;
+    float: right;
+}
+
+.Header-Hold ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px;
+    padding-top: 0px;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.Header-Hold ul li a{
+    margin: 15px;
+    padding: 0px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/*This is content 1*/
+
+.Content1{
+    width: 100%;
+    height: 100vh;
+    /*background-color: blueviolet;*/
+    position: relative;
+    background-image: url("../img/Wed.jpg");
+    background-size: cover;
+}
+
+.Content1-Cover{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    background-color: black;
+}
+
+.Contain-Info{
+    width: 600px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 250px;
+    text-align: center;
+}
+
+.Contain-Info h2{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   font-size: 50px;
+  
+}
+
+.Contain-Info p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin-top: 20px;
+    
+}
+
+.Learn{
+    width: 120px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: #a787a4;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+
+}
+
+.Contain-Info-Two{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 9;
+}
+/*This is content 1*/
+
+.Content2{
+    width:100%;
+    height: 450px;
+    background-color: #dea7c4;
+}
+
+.Content-Fone{
+    width: 33.333%;
+    height: 450px;
+    background-color: purple;
+    float: left;
+    background-image: url("../img/Wee.jpg");
+    background-size: 100% 450px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.Pointer-Left{
+    width: 14px;
+    height: 28px;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    background-image: url("../img/pointer-left.png");
+    background-position: center;
+    background-repeat: repeat;       
+}
+
+.Content-Sone{
+    width: 33.333%;
+    height: 450px;
+    background-color: #a787a4;
+    float: left;
+}
+
+.Content-H-Holder{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.Content-H-Holder p{
+    line-height: 150%;
+    font-size:14px;
+}
+
+.Content-Tone{
+    width: 33.333%;
+    height: 450px;
+    background-color: lightblue;
+    float: left;
+    background-image: url("../img/Cmon.jpg");
+    background-size: 100% 450px;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.Pointer-right{
+    width: 14px;
+    height: 28px;
+    position: absolute;
+    top: 50%;
+    background-image: url("../img/point-right.png");
+    background-position: center;
+    background-repeat: repeat;
+}
+
+/*This is content 3*/
+.Content3{
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url("../img/adelaides-best-wedding-photographers_020.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Content3-Cover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.Content3-Info{
+    width: 700px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+   /* background-color: aquamarine;*/
+}
+
+.Content3-Layer{
+    width: 100%;
+    height: auto;
+    /*background-color: red;*/
+    text-align: center;
+}
+
+.Content3-Layer h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.Content3-Layer p{
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 180%;
+}
+
+   outline: none;
+}

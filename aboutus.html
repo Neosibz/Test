@@ -1,0 +1,188 @@
+
+<html>
+    
+    
+    
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    </head>
+    
+    
+    
+    <body>
+        
+        
+        
+        
+        
+        
+        
+        <div class = "wrapper">
+            
+            <header>
+                <div class = "Header-Hold animated fadeInDown">
+                    <ul>
+                        <li><a class = "active" href="index.html">Home</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="#">Bookings</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </header>
+            
+            
+            
+            <div class = "First-Content" id="page1">
+                <div class = "First-color">
+                    <div class = "First-Info animated fadeInDown ">
+                        <h2>Know More About Us</h2>
+                        <hr width="50%">
+                        
+                        <p>" A succesful marriage requires falling in love " </p>
+                    </div>
+                
+                </div>
+            
+            
+            
+            </div>
+            
+            
+            <div class = "Content2" id="page2">
+                <div class = "Two-Info">
+                    <div class = "Two-Info-Header">
+                        <h2>About Us</h2>
+                        
+                        <hr width="30%">
+                    </div>
+                    
+                <div class = "Left">
+                    <p>
+                            Simply dummy text of the printing and typesett industry. Lorem Ipsum has been the industry' standard dummy text ever since the 1500sSimply dummy text of the printing and typesett industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sSimply dummy text of the printing and typesett industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sSimply dummy text of the printing and typesett industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sSimply dummy text of the printing and typesett industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        
+                        </p>
+                    
+                </div>
+                    
+                    
+                    
+                <div class = "right">
+                    
+                    <p>
+                            Simply dummy text of the printing and typesett industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sSimply dummy text of the printing and typesett industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sSimply dummy text of the printing and typesett industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sSimply dummy text of the printing and typesett industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sSimply dummy text of the printing and typesett industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        
+                        </p>
+                </div>
+                    
+                    <button id="Go" onClick="parent.location='aboutus.html'">Contact Us </button>
+                    
+                </div>
+            
+            
+            
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+           
+            
+            
+            <footer>
+                <div class = "footer-Holder">
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Terms & conditions</a>
+                    <a href="#">Privatate policy</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#"> ©copyright 2016 Neo Sibeko</a>
+                
+                
+                </div>
+            
+            
+            </footer>
+
+            
+            
+            
+            
+            
+            
+        </div>
+    
+        
+        
+        
+        
+        
+        <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
+        <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        
+        <script>
+            
+               $(document).scroll(function () {
+                   
+                   var x = $(this).scrollTop(),
+                   home = $('#page1'),
+                   about = $('#page2')
+                   
+                   
+                   if (x >= home.offset().top && x < (home.offset().top + home.height())) {
+                    $('header').css("background-color", "rgba(0,0,0,0.01)");
+                }
+                if (x >= about.offset().top && x < (about.offset().top + about.height())) {
+                    $('header').css("background-color", "rgba(108, 84, 103, 0.6) ");
+                }
+                   
+               });
+            
+            
+            $(window).scroll(function(){
+    
+            $('.hideme').each(function(){
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},1000);
+                    
+            }
+            
+        });
+    
+    });
+        
+        
+        </script>
+        
+     
+        
+    </body>
+    
+    
+    
+    
+    
+    
+    
+</html>
